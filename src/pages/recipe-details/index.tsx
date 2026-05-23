@@ -183,8 +183,6 @@ export const RecipeDetailsPage = () => {
           </section>
         </aside>
       </section>
-
-      <footer className={s.flowNote}>Действия: избранное, коллекция, оценка 1-5, комментарий</footer>
     </main>
   );
 };
