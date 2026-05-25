@@ -9,7 +9,6 @@ export const getAccessToken = () => {
 
 export const saveTokenStorage = (accessToken: string) => {
   Cookies.set(ENUM_TOKENS.ACCESS_TOKEN, accessToken, {
-    domain: process.env.BASE_URL ? `${process.env.BASE_URL}` : 'localhost',
     sameSite: 'lax',
     expires: 30,
   });
